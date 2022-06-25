@@ -259,10 +259,17 @@ body {
   padding: 1em;
   text-align: center;
 }
+
+@media (min-width: 950px) {
+  .pargraph {
+    text-align: left;
+}
+
 .pargraph h1 {
   color: #3e2753;
   margin-bottom: 1em;
 }
+
 .pargraph p {
   color: #a39daa;
   font-size: 0.9rem;
